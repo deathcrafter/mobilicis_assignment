@@ -136,5 +136,5 @@ app.use((req, res, next) => {
 	await mongoose.connect(
 		`mongodb+srv://${process.env.DBUser}:${process.env.DBPass}@deathcrafter.tmdy1.mongodb.net/mobilicis_assignment`
 	);
-	app.listen(443, () => console.info("Server listening on port: 443"));
+	app.listen(3001, () => console.info("Server listening on port: 3001"));
 })();
